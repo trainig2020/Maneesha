@@ -1,0 +1,93 @@
+2020-09-03 19:13:51.680  INFO 24536 --- [main] com.DeptEmpUI.DeptEmpUiApplication       : No active profile set, falling back to default profiles: default
+2020-09-03 19:13:52.650  INFO 24536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-03 19:13:52.700  INFO 24536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30ms. Found 0 JPA repository interfaces.
+2020-09-03 19:13:53.276  INFO 24536 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6a385524-1a4b-3000-b1f2-89b311f9e16e
+2020-09-03 19:13:53.597  INFO 24536 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5814ecf4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-03 19:13:54.469  INFO 24536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2020-09-03 19:13:54.488  INFO 24536 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-03 19:13:54.489  INFO 24536 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-03 19:13:55.391  INFO 24536 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-03 19:13:55.398  INFO 24536 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-03 19:13:55.399  INFO 24536 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3689 ms
+2020-09-03 19:13:55.778  INFO 24536 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-03 19:13:56.259  INFO 24536 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-03 19:13:56.349  WARN 24536 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-03 19:13:56.350  INFO 24536 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-03 19:13:56.368  WARN 24536 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-03 19:13:56.370  INFO 24536 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-03 19:13:56.410  INFO 24536 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-09-03 19:13:56.507  WARN 24536 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-03 19:13:56.888  INFO 24536 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-03 19:13:57.254  INFO 24536 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-03 19:13:59.258  INFO 24536 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-03 19:13:59.387  INFO 24536 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-09-03 19:13:59.414  INFO 24536 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-09-03 19:14:00.018  INFO 24536 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-09-03 19:14:00.338  INFO 24536 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-09-03 19:14:00.338  INFO 24536 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-09-03 19:14:00.767  INFO 24536 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-09-03 19:14:00.768  INFO 24536 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-09-03 19:14:01.579  INFO 24536 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-03 19:14:01.928  INFO 24536 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-09-03 19:14:01.929  INFO 24536 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-09-03 19:14:01.929  INFO 24536 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-09-03 19:14:01.929  INFO 24536 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-09-03 19:14:01.930  INFO 24536 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-09-03 19:14:01.930  INFO 24536 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-09-03 19:14:01.930  INFO 24536 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-09-03 19:14:02.154  INFO 24536 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-03 19:14:02.171  INFO 24536 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-03 19:14:02.406  INFO 24536 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-09-03 19:14:02.412  INFO 24536 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-09-03 19:14:02.417  INFO 24536 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-03 19:14:02.423  INFO 24536 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1599140642421 with initial instances count: 7
+2020-09-03 19:14:02.428  INFO 24536 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application UI-SERVICE with eureka with status UP
+2020-09-03 19:14:02.428  INFO 24536 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1599140642428, current=UP, previous=STARTING]
+2020-09-03 19:14:02.431  INFO 24536 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/LAPTOP-LIP6DHCR:UI-service:8085: registering service...
+2020-09-03 19:14:02.516  INFO 24536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2020-09-03 19:14:02.517  INFO 24536 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8085
+2020-09-03 19:14:02.525  INFO 24536 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_UI-SERVICE/LAPTOP-LIP6DHCR:UI-service:8085 - registration status: 204
+2020-09-03 19:14:02.527  INFO 24536 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-09-03 19:14:02.528  INFO 24536 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-09-03 19:14:02.553  INFO 24536 --- [main] com.DeptEmpUI.DeptEmpUiApplication       : Started DeptEmpUiApplication in 12.641 seconds (JVM running for 13.774)
+2020-09-03 19:16:07.658  INFO 24536 --- [http-nio-8085-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-03 19:16:07.658  INFO 24536 --- [http-nio-8085-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-03 19:16:07.678  INFO 24536 --- [http-nio-8085-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2020-09-03 19:16:14.359  INFO 24536 --- [http-nio-8085-exec-8] com.DeptEmpUI.controller.DeptController  : From deptcontroller list of department
+2020-09-03 19:16:14.817  INFO 24536 --- [http-nio-8085-exec-8] c.netflix.config.ChainedDynamicProperty  : Flipping property: dept-emp-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-03 19:16:14.884  INFO 24536 --- [http-nio-8085-exec-8] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-dept-emp-service
+2020-09-03 19:16:14.884  INFO 24536 --- [http-nio-8085-exec-8] c.netflix.loadbalancer.BaseLoadBalancer  : Client: dept-emp-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=dept-emp-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-09-03 19:16:14.895  INFO 24536 --- [http-nio-8085-exec-8] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2020-09-03 19:16:14.932  INFO 24536 --- [http-nio-8085-exec-8] c.netflix.config.ChainedDynamicProperty  : Flipping property: dept-emp-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-03 19:16:14.935  INFO 24536 --- [http-nio-8085-exec-8] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client dept-emp-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=dept-emp-service,current list of Servers=[LAPTOP-LIP6DHCR:8083],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:LAPTOP-LIP6DHCR:8083;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 05:30:00 IST 1970;	First connection made: Thu Jan 01 05:30:00 IST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@5fed938e
+2020-09-03 19:16:14.964  INFO 24536 --- [http-nio-8085-exec-8] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-09-03 19:16:14.964  INFO 24536 --- [http-nio-8085-exec-8] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-09-03 19:16:15.908  INFO 24536 --- [PollingServerListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: dept-emp-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-03 19:16:23.785  INFO 24536 --- [http-nio-8085-exec-7] com.DeptEmpUI.controller.DeptController  : From deptcontroller list of department
+2020-09-03 19:16:25.383  INFO 24536 --- [http-nio-8085-exec-5] com.DeptEmpUI.controller.DeptController  : From deptcontroller list of department
+2020-09-03 19:16:34.855  INFO 24536 --- [http-nio-8085-exec-6] com.DeptEmpUI.controller.DeptController  : From deptcontroller list of department
+2020-09-03 19:16:34.896  INFO 24536 --- [http-nio-8085-exec-4] com.DeptEmpUI.controller.DeptController  : From deptcontroller list of department names
+2020-09-03 19:16:41.978  INFO 24536 --- [http-nio-8085-exec-1] com.DeptEmpUI.controller.DeptController  : From deptcontroller list of department
+2020-09-03 19:16:42.006  INFO 24536 --- [http-nio-8085-exec-2] com.DeptEmpUI.controller.DeptController  : From deptcontroller list of department names
+2020-09-03 19:16:43.824  INFO 24536 --- [http-nio-8085-exec-10] com.DeptEmpUI.controller.DeptController  : From deptcontroller list of department
+2020-09-03 19:16:46.848  INFO 24536 --- [http-nio-8085-exec-8] com.DeptEmpUI.controller.DeptController  : From deptcontroller creating new department
+2020-09-03 19:16:57.020  INFO 24536 --- [http-nio-8085-exec-9] com.DeptEmpUI.controller.DeptController  : From deptcontroller creating new department
+2020-09-03 19:16:57.311  INFO 24536 --- [http-nio-8085-exec-7] com.DeptEmpUI.controller.DeptController  : From deptcontroller list of department
+2020-09-03 19:16:58.995  INFO 24536 --- [http-nio-8085-exec-3] com.DeptEmpUI.controller.DeptController  : From deptcontroller updating department
+2020-09-03 19:17:13.933  INFO 24536 --- [http-nio-8085-exec-6] com.DeptEmpUI.controller.DeptController  : From deptcontroller updating department
+2020-09-03 19:17:14.155  INFO 24536 --- [http-nio-8085-exec-4] com.DeptEmpUI.controller.DeptController  : From deptcontroller list of department
+2020-09-03 19:17:18.355  INFO 24536 --- [http-nio-8085-exec-1] com.DeptEmpUI.controller.DeptController  : From deptcontroller deleting department
+2020-09-03 19:17:18.476  INFO 24536 --- [http-nio-8085-exec-2] com.DeptEmpUI.controller.DeptController  : From deptcontroller list of department
+2020-09-03 19:17:38.049  INFO 24536 --- [http-nio-8085-exec-10] com.DeptEmpUI.controller.DeptController  : From deptcontroller list of department
+2020-09-03 19:17:38.075  INFO 24536 --- [http-nio-8085-exec-8] com.DeptEmpUI.controller.DeptController  : From deptcontroller list of department names
+2020-09-03 19:17:39.590  INFO 24536 --- [http-nio-8085-exec-9] com.DeptEmpUI.controller.DeptController  : From deptcontroller list of department names
+2020-09-03 19:18:13.032  INFO 24536 --- [http-nio-8085-exec-3] c.D.controller.EmployeeController        : From EmployeeController Creating new employee
+2020-09-03 19:18:13.240  INFO 24536 --- [http-nio-8085-exec-5] com.DeptEmpUI.controller.DeptController  : From deptcontroller list of department names
+2020-09-03 19:18:31.589  INFO 24536 --- [http-nio-8085-exec-1] c.D.controller.EmployeeController        : From EmployeeController updating employee
+2020-09-03 19:18:31.845  INFO 24536 --- [http-nio-8085-exec-2] com.DeptEmpUI.controller.DeptController  : From deptcontroller list of department names
+2020-09-03 19:18:36.328  INFO 24536 --- [http-nio-8085-exec-10] c.D.controller.EmployeeController        : From EmployeeController deleting employee
+2020-09-03 19:18:36.434  INFO 24536 --- [http-nio-8085-exec-8] com.DeptEmpUI.controller.DeptController  : From deptcontroller list of department names
+2020-09-03 19:19:01.936  INFO 24536 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-09-03 19:24:01.938  INFO 24536 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

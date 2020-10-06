@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    gateway:
+      routes:
+      - id: dept-emp-service
+        uri: lb://dept-emp-service
+        predicates:
+        - Path=/organize/**
+ 
+        filters:
+            - name: Hystrix
+              args:
+               name: fallbackCommand
+               fallbackuri: forward:/departmentFallBack
+               
+management:
+ endpoints:
+  web:
+   exposure:
+    include: "*"
+
+server:
+  port: 8084
+  
+  

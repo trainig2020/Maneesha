@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: department-service
+  profiles:
+    active:
+    - production
